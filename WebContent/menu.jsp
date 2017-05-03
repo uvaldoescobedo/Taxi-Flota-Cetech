@@ -7,19 +7,24 @@
 <title>Menu</title>
 <link rel="stylesheet" type="text/css" href="CSS/estiloIndex.css"> 
 
+<script type="text/javascript">
+
+
+</script>
+
 </head>
 <body>
-<section class="menu-opciones">
-	<div class="styleDiv">
-			<form action="opciones" method="post" id="menu">
-			<input onclick="" type="button" value="Alta" /> 
-			<input	onclick="" type="button" value="Buscar" /> 
-			<input	type="button" value="Modificar" />
-			<input	type="button" value="Eliminar" /> 
-			<p class="mensajeError">${msj} </p>
 
-			</form>
+	<div class="styleDiv">
+<form action="Menu.do" method="post">
+    <input type="submit" value="Alta" name="Alta" id="Alta" />
+    <input type="submit" value="Modificacion" name="Modificacion" id="Modificacion" />
+    <input type="submit" value="Busqueda" name="Busqueda" id="Busqueda" />
+    <input type="submit" value="Eliminar" name="Eliminar" id="Eliminar" />
+         
+	</form>
+
 	</div>
-</section>
+
 </body>
 </html>

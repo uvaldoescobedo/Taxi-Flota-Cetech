@@ -45,7 +45,7 @@ public class Menu_Principal extends HttpServlet {
 		String Eliminar = "";
 		Eliminar=request.getParameter("Eliminar");
 		
-		String opcion="";
+		String opcion=""; 
 
 		System.out.println(opcion+Alta+Busqueda+Eliminar+Modificacion);
 		

@@ -11,7 +11,7 @@
   
   <servlet-mapping>
   <servlet-name>Menu_Principal</servlet-name>
-  <url-pattern>/Menu.do</url-pattern>
+  <url-pattern>/Menu.do</url-pattern> 
   </servlet-mapping>
   
 </web-app>

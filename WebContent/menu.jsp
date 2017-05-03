@@ -15,7 +15,7 @@
 </head>
 <body>
 
-	<div class="styleDiv">
+	<div class="styleDiv"> 
 <form action="Menu.do" method="post">
     <input type="submit" value="Alta" name="Alta" id="Alta" />
     <input type="submit" value="Modificacion" name="Modificacion" id="Modificacion" />

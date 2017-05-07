@@ -37,19 +37,35 @@ public class Menu_Principal extends HttpServlet {
 	 */
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String Alta ="";
-		Alta=request.getParameter("Alta");
+		Alta= request.getParameter("Alta");
 		String Busqueda ="";
 		Busqueda= request.getParameter("Busqueda");
 		String Modificacion = "";
 		Modificacion= request.getParameter("Modificacion");
 		String Eliminar = "";
 		Eliminar=request.getParameter("Eliminar");
+		int opcion=0; 
+		//System.out.println(Alta+Busqueda+Eliminar+Modificacion);
 		
-		String opcion=""; 
-
-		System.out.println(opcion+Alta+Busqueda+Eliminar+Modificacion);
+		if(Alta!= null){
+			opcion=1;
+			request.getRequestDispatcher("Alta.jsp").forward(request, response);
+		}else if(Busqueda!=null){
+			opcion=2;
+			request.getRequestDispatcher("busqueda.jsp").forward(request, response);
+		}else if(Modificacion!=null){
+			opcion=3;
+			request.getRequestDispatcher("Modificacion.jsp").forward(request, response);
+		}else{
+			opcion=4;
+			request.getRequestDispatcher("Eliminar.jsp").forward(request, response);
+		}
+		
+		System.out.println(opcion);
 		
 		}
+	
+	
 		
 	
 

@@ -17,9 +17,9 @@
 
 	<div class="styleDiv"> 
 <form action="Menu.do" method="post">
-    <input type="submit" value="Alta" name="Alta" id="Alta" />
-    <input type="submit" value="Modificacion" name="Modificacion" id="Modificacion" />
+    <input type="submit"  value="Alta" name="Alta" ></>
     <input type="submit" value="Busqueda" name="Busqueda" id="Busqueda" />
+	<input type="submit" value="Modificacion" name="Modificacion" id="Modificacion" />
     <input type="submit" value="Eliminar" name="Eliminar" id="Eliminar" />
          
 	</form>

@@ -61,7 +61,7 @@ public class Menu_Principal extends HttpServlet {
 			request.getRequestDispatcher("Eliminar.jsp").forward(request, response);
 		}
 		
-		System.out.println(opcion);
+		//System.out.println(opcion);
 		
 		}
 	

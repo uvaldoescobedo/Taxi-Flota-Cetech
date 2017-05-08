@@ -149,6 +149,19 @@ div {
       <option value="Blanco-Verde">Blanco con Verde</option>
       <option value="Rojo-Dorado">Rojo Dorado</option>
     </select>
+    
+<form action="" class="extras">
+<label for="extras">Extras<br /></label>
+<input type="checkbox" name="aire_Acondicionado" value="aire_Acondicionado"> Aire Acondicionado<br />
+<input type="checkbox" name="Stereo-USB" value="Stereo-USB"> Estereo USB<br />
+<input type="checkbox" name="alarma" value="alarma"> Alarma <br />
+<input type="checkbox" name="Vidrios_electricos" value="Vidrios_electricos"> Vidrios electricos <br />
+</form><br /><br />
+
+<p>Procedencia</p>
+<input type="radio" name="Extranjera" value="0" >Extranjera <br />
+<input type="radio" name="Nacional" value="1" >Nacional <br />
+<br /><br />
 
 <div class="engomado">
   <button class="engomado">Engomado</button>
@@ -160,6 +173,8 @@ div {
      <option value="Azul"><f >Azul</f></option>
   </div>
 </div>
+
+
 
     <input type="submit" value="Submit">
   </form>
